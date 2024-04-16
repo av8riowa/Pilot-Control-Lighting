@@ -18,12 +18,12 @@ def check_mic_clicks():
 # Function to turn on USB port
 def turn_on_usb():
     # Use command to turn on USB port
-    os.system("your_command_to_turn_on_usb_here")
+    os.system("your_command_to_turn_on_usb_here.sh")
 
 # Function to turn off USB port
 def turn_off_usb():
     # Use command to turn off USB port
-    os.system("your_command_to_turn_off_usb_here")
+    os.system("your_command_to_turn_off_usb_here.sh")
 
 # Main loop
 while True:
